@@ -19,7 +19,32 @@ This project does not have heavy procesing but you need the following resources 
 -   Minimum 8 GB Ram
 -   Alternatively, you can use [google colab](https://colab.google/) to run the file. Ensure you upload all the necessary files like `abod.py` and the `data.rar`
 
-## Methods
+## Data Analysis Results
+### Identifying Trends in Fraudulent Transactions
+One of the first steps in fraud detection is to identify trends and patterns within fraudulent transactions. By analyzing a dataset containing transaction records, we can uncover insights that may reveal suspicious behavior. Let's take a look at some key findings from our analysis:
+
+#### Top 10 Jobs with the Most Fraudulent Transactions
+We discovered that certain professions are associated with a higher frequency of fraudulent transactions. Among the top 10 jobs with the most fraudulent transactions are Quantity Surveyors, Naval Architects, and Materials Engineers. 
+
+
+These insights can help financial institutions target their fraud detection efforts more effectively.
+
+#### Credit Card Holders with the Most Fraudulent Transactions
+Moreover, we examined the credit card holders who were involved in the most fraudulent transactions. Interestingly, some credit card numbers appeared more frequently in fraudulent activities than others. By identifying these patterns, financial institutions can implement measures to prevent fraudulent activities associated with specific credit cards.
+
+#### Hourly Analysis of Fraud Transactions
+We also analyzed the hourly distribution of fraudulent transactions to identify any temporal patterns. This analysis revealed that fraudulent activities tend to peak during certain hours of the day, providing valuable insights for deploying real-time fraud detection systems.
+
+### Machine Learning for Fraud Detection
+Another crucial aspect of fraud detection is the application of machine learning algorithms. By training models on historical transaction data, we can develop predictive models that identify potentially fraudulent transactions in real-time. Here's a glimpse into our machine learning pipeline:
+
+#### Feature Engineering and Encoding
+We preprocessed the dataset by encoding categorical variables and performing feature engineering to extract relevant information for training our machine learning models.
+
+#### Training and Evaluation
+We split the data into training and testing sets, trained several machine learning models, and evaluated their performance using metrics such as precision, recall, and F1-score.
+
+### Machine learning Methods
 
 The project uses two methods to detect fraud transactions:
 
@@ -27,7 +52,7 @@ The project uses two methods to detect fraud transactions:
 
 - **Autoencoders**: This method uses a neural network that learns to reconstruct its input by compressing it into a lower dimensional representation. The instances with higher reconstruction error are considered as outliers.
 
-## Results
+### Results
 
 The project evaluates the performance of the methods using metrics such as accuracy, precision, recall, and f1-score. The results are shown in the following table:
 
