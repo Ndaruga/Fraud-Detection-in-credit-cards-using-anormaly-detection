@@ -23,17 +23,25 @@ This project does not have heavy procesing but you need the following resources 
 ### Identifying Trends in Fraudulent Transactions
 One of the first steps in fraud detection is to identify trends and patterns within fraudulent transactions. By analyzing a dataset containing transaction records, we can uncover insights that may reveal suspicious behavior. Let's take a look at some key findings from our analysis:
 
+#### Top 12 merchants with highest transactions per week
+![newplot](https://github.com/Ndaruga/Fraud-Detection-in-credit-cards-using-anormaly-detection/assets/68260816/94663eed-3b38-4c93-988c-54bcd6f0e072)
+
+
 #### Top 10 Jobs with the Most Fraudulent Transactions
 We discovered that certain professions are associated with a higher frequency of fraudulent transactions. Among the top 10 jobs with the most fraudulent transactions are Quantity Surveyors, Naval Architects, and Materials Engineers. 
-
+![newplot (1)](https://github.com/Ndaruga/Fraud-Detection-in-credit-cards-using-anormaly-detection/assets/68260816/50545240-5403-40dc-be01-e9691fe50a30)
 
 These insights can help financial institutions target their fraud detection efforts more effectively.
 
-#### Credit Card Holders with the Most Fraudulent Transactions
+#### Credit Card Holders with the Most Fraudulent Transactions over time
 Moreover, we examined the credit card holders who were involved in the most fraudulent transactions. Interestingly, some credit card numbers appeared more frequently in fraudulent activities than others. By identifying these patterns, financial institutions can implement measures to prevent fraudulent activities associated with specific credit cards.
+![newplot (3)](https://github.com/Ndaruga/Fraud-Detection-in-credit-cards-using-anormaly-detection/assets/68260816/fc7c50d5-bd4c-48ea-bb64-5e4fa26f3c0c)
+
 
 #### Hourly Analysis of Fraud Transactions
 We also analyzed the hourly distribution of fraudulent transactions to identify any temporal patterns. This analysis revealed that fraudulent activities tend to peak during certain hours of the day, providing valuable insights for deploying real-time fraud detection systems.
+![newplot (4)](https://github.com/Ndaruga/Fraud-Detection-in-credit-cards-using-anormaly-detection/assets/68260816/f0a03e6d-7266-4d74-a8c2-4274d034738e)
+
 
 ### Machine Learning for Fraud Detection
 Another crucial aspect of fraud detection is the application of machine learning algorithms. By training models on historical transaction data, we can develop predictive models that identify potentially fraudulent transactions in real-time. Here's a glimpse into our machine learning pipeline:
